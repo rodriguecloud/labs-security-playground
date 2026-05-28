@@ -1,7 +1,5 @@
 # 🔒 cyber-ts-dependabots labs only
 
-Veille typescript
-
 ## 📋 À propos
 
 Ce dépôt est dédié au **test et à la démonstration des fonctionnalités de sécurité de Dependabot**. Il permet de :
