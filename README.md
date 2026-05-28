@@ -1,4 +1,4 @@
-# 🔒 cyber-ts
+# 🔒 cyber-ts-dependabots labs only
 
 Veille typescript
 
