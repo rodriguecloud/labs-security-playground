@@ -24,7 +24,7 @@
     "moment": "2.29.4",
     "request": "2.88.2",
     "axios": "0.21.1",
-    "jquery": "2.2.4"
+    "jquery": "3.5.0"
   },
   "devDependencies": {
     "typescript": "^5.0.0",
