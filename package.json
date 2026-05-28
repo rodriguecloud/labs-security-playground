@@ -22,8 +22,7 @@
     "express": "4.22.0",
     "lodash": "4.18.0",
     "moment": "2.29.4",
-    "request": "2.88.2",
-    "axios": "0.31.1",
+    "axios": "^1.7.0",
     "jquery": "3.5.0"
   },
   "devDependencies": {
@@ -38,8 +37,7 @@
       "express": "Framework web Node.js - v4.17.1 (Version Legacy - Mise à jour recommandée)",
       "lodash": "Utilitaire JavaScript - v4.17.20 (Version ancienne - Mise à jour vers 4.17.21+ recommandée)",
       "moment": "Gestion des dates - v2.29.4 (Stable mais envisager date-fns ou Day.js)",
-      "request": "Client HTTP - v2.88.2 (DÉPRÉCIÉE - Migrer vers axios ou node-fetch)",
-      "axios": "Client HTTP moderne - v0.21.1 (Version ancienne - Mise à jour vers 1.x recommandée)",
+      "axios": "Client HTTP moderne - Mis à jour pour éviter les failles",
       "jquery": "Manipulation DOM jQuery - v2.2.4 (Très ancienne et deprecated - Utiliser plutôt Vanilla JS ou Vue.js/React)"
     },
     "devDependencies": {
@@ -50,7 +48,7 @@
       "@types/jest": "Typages pour Jest - v29.0.0 (À jour)"
     },
     "security_alerts": {
-      "note": "ALERTES POTENTIELLES DEPENDABOT: request (2.88.2 - deprecated), jquery (2.2.4 - ancienne), axios (0.21.1 - ancienne), express (4.17.1 - legacy)",
+      "note": "ALERTES POTENTIELLES DEPENDABOT: request supprimé, axios mis à jour.",
       "improvements_from_test_dependencies": "lodash amélioré de 4.16.1 à 4.17.20 (patch version - toujours ancienne mais légèrement meilleure)",
       "recommendation": "Exécuter 'npm audit' et 'npm audit fix' régulièrement pour identifier les vulnérabilités"
     }
