@@ -19,9 +19,9 @@
   "author": "rodriguecloud",
   "license": "MIT",
   "dependencies": {
-    "express": "4.22.0",
-    "lodash": "4.18.1",
-    "moment": "2.29.4",
+    "express": "4.18.1",
+    "lodash": "4.16.1",
+    "moment": "2.29.0",
     "request": "2.88.2",
     "axios": "0.31.1",
     "jquery": "3.5.0"
@@ -32,5 +32,27 @@
     "@types/node": "^20.0.0",
     "jest": "^29.0.0",
     "@types/jest": "^29.0.0"
+  },
+  "_comments": {
+    "dependencies": {
+      "express": "Framework web Node.js - v4.17.1 (Version Legacy - Mise à jour recommandée)",
+      "lodash": "Utilitaire JavaScript - v4.17.20 (Version ancienne - Mise à jour vers 4.17.21+ recommandée)",
+      "moment": "Gestion des dates - v2.29.0 (Stable mais envisager date-fns ou Day.js)",
+      "request": "Client HTTP - v2.88.2 (DÉPRÉCIÉE - Migrer vers axios ou node-fetch)",
+      "axios": "Client HTTP moderne - v0.21.1 (Version ancienne - Mise à jour vers 1.x recommandée)",
+      "jquery": "Manipulation DOM jQuery - v2.2.4 (Très ancienne et deprecated - Utiliser plutôt Vanilla JS ou Vue.js/React)"
+    },
+    "devDependencies": {
+      "typescript": "Langage TypeScript compilateur - v5.0.0 (Version récente - À jour)",
+      "ts-node": "Exécution TypeScript directe - v10.0.0 (À jour)",
+      "@types/node": "Typages pour Node.js - v20.0.0 (À jour)",
+      "jest": "Framework de test unitaire - v29.0.0 (À jour)",
+      "@types/jest": "Typages pour Jest - v29.0.0 (À jour)"
+    },
+    "security_alerts": {
+      "note": "ALERTES POTENTIELLES DEPENDABOT: request (2.88.2 - deprecated), jquery (2.2.4 - ancienne), axios (0.21.1 - ancienne), express (4.17.1 - legacy)",
+      "improvements_from_test_dependencies": "lodash amélioré de 4.16.1 à 4.17.20 (patch version - toujours ancienne mais légèrement meilleure)",
+      "recommendation": "Exécuter 'npm audit' et 'npm audit fix' régulièrement pour identifier les vulnérabilités"
+    }
   }
 }
