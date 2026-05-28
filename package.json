@@ -37,7 +37,7 @@
     "dependencies": {
       "express": "Framework web Node.js - v4.17.1 (Version Legacy - Mise à jour recommandée)",
       "lodash": "Utilitaire JavaScript - v4.17.20 (Version ancienne - Mise à jour vers 4.17.21+ recommandée)",
-      "moment": "Gestion des dates - v2.29.0 (Stable mais envisager date-fns ou Day.js)",
+      "moment": "Gestion des dates - v2.29.4 (Stable mais envisager date-fns ou Day.js)",
       "request": "Client HTTP - v2.88.2 (DÉPRÉCIÉE - Migrer vers axios ou node-fetch)",
       "axios": "Client HTTP moderne - v0.21.1 (Version ancienne - Mise à jour vers 1.x recommandée)",
       "jquery": "Manipulation DOM jQuery - v2.2.4 (Très ancienne et deprecated - Utiliser plutôt Vanilla JS ou Vue.js/React)"
