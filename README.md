@@ -1,46 +1,55 @@
-# 🔒 cyber-ts-dependabots labs only
+🔒 cyber-ts-dependabots labs only
+📋 About
+This repository is dedicated to testing and demonstrating Dependabot's security features. It allows you to:
 
-## 📋 À propos
+🔍 Identify vulnerabilities in TypeScript dependencies
 
-Ce dépôt est dédié au **test et à la démonstration des fonctionnalités de sécurité de Dependabot**. Il permet de :
+⚠️ Understand potential security risks
 
-- 🔍 Identifier les vulnérabilités dans les dépendances TypeScript
-- ⚠️ Comprendre les risques de sécurité potentiels
-- ✅ Apprendre comment corriger et mettre à jour les dépendances
-- 👥 Sensibiliser les équipes aux bonnes pratiques de sécurité des dépendances
+✅ Learn how to fix and update dependencies
 
-## 🎯 Objectifs
+👥 Raise awareness among teams about dependency security best practices
 
-Ce projet vise à :
-1. 📚 **Éduquer** les équipes sur l'importance de la gestion des dépendances
-2. 🤖 **Démontrer** comment Dependabot identifie et signale les vulnérabilités
-3. 💡 **Fournir des exemples pratiques** de correction des failles de sécurité
-4. 🛡️ **Promouvoir** une culture de sécurité au sein des équipes de développement
+🎯 Objectives
+This project aims to:
 
-## ✨ Fonctionnalités Dependabot testées
+📚 Educate teams on the importance of dependency management
 
-- 🔎 Detection de vulnérabilités connues
-- 🚨 Alertes de sécurité automatiques
-- 🔄 Pull requests de mise à jour automatiques
-- 📦 Gestion des dépendances critiques
+🤖 Demonstrate how Dependabot identifies and reports vulnerabilities
 
-## 🛠️ Comment corriger les vulnérabilités
+💡 Provide practical examples of fixing security flaws
 
-Lorsque Dependabot détecte une vulnérabilité :
+🛡️ Promote a security culture within development teams
 
-1. 🔔 **Examinez l'alerte** dans l'onglet "Security" du dépôt
-2. 📄 **Consultez le rapport** fourni par Dependabot avec les détails de la vulnérabilité
-3. ✔️ **Acceptez le PR** proposé ou **mettez à jour manuellement** la dépendance
-4. 🧪 **Testez** votre application avec la nouvelle version
-5. ✨ **Mergez** le PR pour appliquer la correction
+✨ Dependabot features tested
+🔎 Detection of known vulnerabilities
 
-## ⚙️ Configuration recommandée
+🚨 Automated security alerts
 
-Assurez-vous que Dependabot est activé dans les paramètres du dépôt :
-- ✅ Activez les "Dependabot alerts"
-- ✅ Activez "Dependabot security updates"
-- ⚙️ Configurez les "Dependabot version updates" selon vos besoins
+🔄 Automated security update pull requests
 
----
+📦 Critical dependency management
 
-**🤝 Contribuez à sensibiliser votre équipe à la sécurité des dépendances !**
+🛠️ How to fix vulnerabilities
+When Dependabot detects a vulnerability:
+
+🔔 Examine the alert in the repository's "Security" tab
+
+📄 Consult the report provided by Dependabot with details on the vulnerability
+
+✔️ Accept the proposed PR or manually update the dependency
+
+🧪 Test your application with the new version
+
+✨ Merge the PR to apply the fix
+
+⚙️ Recommended configuration
+Ensure that Dependabot is enabled in the repository settings:
+
+✅ Enable "Dependabot alerts"
+
+✅ Enable "Dependabot security updates"
+
+⚙️ Configure "Dependabot version updates" according to your needs
+
+🤝 Help raise your team's awareness of dependency security!
