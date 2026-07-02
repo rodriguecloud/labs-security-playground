@@ -1,55 +1,63 @@
 🔒 cyber-ts-dependabots labs only
 📋 About
-This repository is dedicated to testing and demonstrating Dependabot's security features. It allows you to:
+This repository is dedicated to testing and demonstrating GitHub's security features. It serves as a sandbox to validate that security alerts are correctly triggered and reported by our scanning tools, including:
 
-🔍 Identify vulnerabilities in TypeScript dependencies
+🤖 Dependabot: For managing dependencies.
 
-⚠️ Understand potential security risks
+🔍 CodeQL: For static code analysis (SAST) and detecting logic flaws.
 
-✅ Learn how to fix and update dependencies
+🛡️ Other security tools: To ensure full visibility into the project's security posture.
 
-👥 Raise awareness among teams about dependency security best practices
+It also helps to:
+
+🔍 Identify vulnerabilities and security anti-patterns.
+
+⚠️ Understand potential security risks.
+
+✅ Learn how to fix and update vulnerable components.
+
+👥 Raise team awareness regarding automated scanning tools.
 
 🎯 Objectives
 This project aims to:
 
-📚 Educate teams on the importance of dependency management
+📚 Educate teams on the importance of automated analysis.
 
-🤖 Demonstrate how Dependabot identifies and reports vulnerabilities
+🤖 Demonstrate how Dependabot and CodeQL identify and report vulnerabilities.
 
-💡 Provide practical examples of fixing security flaws
+💡 Provide practical examples of how to remediate security flaws.
 
-🛡️ Promote a security culture within development teams
+🛡️ Promote a security culture integrated into the development lifecycle (DevSecOps).
 
-✨ Dependabot features tested
-🔎 Detection of known vulnerabilities
+✨ Security features tested
+🔎 Detection of known vulnerabilities (CVEs) and code errors.
 
-🚨 Automated security alerts
+🚨 Centralized automated security alerts.
 
-🔄 Automated security update pull requests
+🔄 Automated security update pull requests.
 
-📦 Critical dependency management
+📊 Integration of analysis reports directly within the GitHub interface.
 
-🛠️ How to fix vulnerabilities
-When Dependabot detects a vulnerability:
+🛠️ How to handle alerts
+When scanning tools detect a vulnerability:
 
-🔔 Examine the alert in the repository's "Security" tab
+🔔 Examine the alert in the repository's "Security" tab.
 
-📄 Consult the report provided by Dependabot with details on the vulnerability
+📄 Consult the detailed report provided by the tool (CodeQL, Dependabot, etc.).
 
-✔️ Accept the proposed PR or manually update the dependency
+✔️ Accept the proposed PR or fix the code manually following the provided recommendations.
 
-🧪 Test your application with the new version
+🧪 Test your application to ensure no regressions.
 
-✨ Merge the PR to apply the fix
+✨ Merge the PR to close the alert.
 
 ⚙️ Recommended configuration
-Ensure that Dependabot is enabled in the repository settings:
+Ensure that security tools are enabled in the repository settings:
 
-✅ Enable "Dependabot alerts"
+✅ Enable "Dependabot alerts" and "security updates".
 
-✅ Enable "Dependabot security updates"
+✅ Configure the "CodeQL analysis" workflow for code scanning.
 
-⚙️ Configure "Dependabot version updates" according to your needs
+⚙️ Regularly check the "Security" dashboard for an overview of the project's health.
 
-🤝 Help raise your team's awareness of dependency security!
+🤝 Help raise your team's awareness of security and the importance of addressing scan alerts!
