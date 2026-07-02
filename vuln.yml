@@ -1,0 +1,13 @@
+---
+- name: Configure server
+  hosts: webservers
+  vars:
+    # VULNERABILITY: Plain text credentials in the source code
+    db_password: "SuperSecretPassword123!" 
+    api_key: "abc-123-xyz-456"
+  tasks:
+    - name: Ensure database is configured
+      community.mysql.mysql_user:
+        name: app_user
+        password: "{{ db_password }}"
+        state: present
